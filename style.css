@@ -22,11 +22,10 @@
     margin-bottom: 10px;
   }
   
-  /* Adicionando responsividade para telas menores */
   @media screen and (max-width: 600px) {
     .gallery {
-      flex-direction: column; /* Alterar para uma coluna quando a tela for menor que 600px */
-      align-items: center; /* Centralizar os itens quando estiver em uma coluna */
+      flex-direction: column;
+      align-items: center;
     }
   }
   
